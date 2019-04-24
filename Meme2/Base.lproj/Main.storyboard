@@ -118,7 +118,9 @@
                             <outlet property="delegate" destination="5u7-gt-nmK" id="lYs-az-3Qu"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="wMV-4z-sEn"/>
+                    <navigationItem key="navigationItem" id="wMV-4z-sEn">
+                        <barButtonItem key="rightBarButtonItem" id="PYV-Ct-NN0"/>
+                    </navigationItem>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6JT-DL-I1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
