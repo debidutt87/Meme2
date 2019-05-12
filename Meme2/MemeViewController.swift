@@ -96,8 +96,12 @@ class MemeViewController: UIViewController,UIImagePickerControllerDelegate,UINav
     }
     
     func save() {
-        _ = Meme(topText: topText.text!, bottomText: bottomText.text!, originalImage: imagePickerView.image!, memedImage: generateMemedImage())
+        let meme = Meme(topText: topText.text!, bottomText: bottomText.text!, originalImage: imagePickerView.image!, memedImage: generateMemedImage())
         self.navigationController?.popToRootViewController(animated: true)
+        
+        let object = UIApplication.shared.delegate
+        let appDelegate = object as! AppDelegate
+        appDelegate.memes.append(meme)
     }
     
     func chooseImageFromCameraOrPhoto(source: UIImagePickerController.SourceType) {
