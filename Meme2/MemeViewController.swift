@@ -102,6 +102,7 @@ class MemeViewController: UIViewController,UIImagePickerControllerDelegate,UINav
         let object = UIApplication.shared.delegate
         let appDelegate = object as! AppDelegate
         appDelegate.memes.append(meme)
+        print("storing count ",appDelegate.memes.count)
     }
     
     func chooseImageFromCameraOrPhoto(source: UIImagePickerController.SourceType) {
