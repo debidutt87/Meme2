@@ -36,7 +36,7 @@ class MemeViewController: UIViewController,UIImagePickerControllerDelegate,UINav
         setupTextField(tf: topText, text: "TOP")
         setupTextField(tf: bottomText, text: "BOTTOM")
         cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
-        self.title = "Meme Editor"
+        self.navigationItem.title = Constants.titleMemesEditor
     }
     
     override func viewWillAppear(_ animated: Bool) {

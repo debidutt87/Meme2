@@ -19,6 +19,7 @@
 		E53AC3AD2288D23700B5D8DC /* MemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53AC3AC2288D23700B5D8DC /* MemeCollectionViewCell.swift */; };
 		E54B53E8228BA98B001CFF81 /* MemeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54B53E7228BA98B001CFF81 /* MemeTableViewCell.swift */; };
 		E5C5A3BC228CA5B70058E131 /* MemeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C5A3BB228CA5B70058E131 /* MemeDetailViewController.swift */; };
+		E5C5A3BE228CBEFA0058E131 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C5A3BD228CBEFA0058E131 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		E53AC3AC2288D23700B5D8DC /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewCell.swift; sourceTree = "<group>"; };
 		E54B53E7228BA98B001CFF81 /* MemeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTableViewCell.swift; sourceTree = "<group>"; };
 		E5C5A3BB228CA5B70058E131 /* MemeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeDetailViewController.swift; sourceTree = "<group>"; };
+		E5C5A3BD228CBEFA0058E131 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				E5229079226F1BA500C6158A /* AppDelegate.swift */,
 				E522907D226F1BA500C6158A /* Main.storyboard */,
+				E5C5A3BD228CBEFA0058E131 /* Constants.swift */,
 				E5C5A3BB228CA5B70058E131 /* MemeDetailViewController.swift */,
 				E5229080226F1BA600C6158A /* Assets.xcassets */,
 				E5229082226F1BA600C6158A /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 				E52290AA2270F65100C6158A /* TableViewController.swift in Sources */,
 				E52290AC2270F66500C6158A /* CollectionViewController.swift in Sources */,
 				E5C5A3BC228CA5B70058E131 /* MemeDetailViewController.swift in Sources */,
+				E5C5A3BE228CBEFA0058E131 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

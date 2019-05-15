@@ -20,7 +20,7 @@ class TableViewController: UIViewController,UITableViewDataSource,UITableViewDel
         
         self.tb.delegate = self
         self.tb.dataSource = self
-        self.navigationItem.title = "Sent Memes"
+        self.navigationItem.title=Constants.titleSentMemes
     }
     
         override func viewWillAppear(_ animated: Bool) {
