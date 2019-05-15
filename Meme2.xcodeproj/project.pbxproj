@@ -17,6 +17,7 @@
 		E52290A82270DE9000C6158A /* MemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52290A72270DE9000C6158A /* MemeViewController.swift */; };
 		E52290AA2270F65100C6158A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52290A92270F65100C6158A /* TableViewController.swift */; };
 		E52290AC2270F66500C6158A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52290AB2270F66500C6158A /* CollectionViewController.swift */; };
+		E53AC3AD2288D23700B5D8DC /* MemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53AC3AC2288D23700B5D8DC /* MemeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E52290A72270DE9000C6158A /* MemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeViewController.swift; sourceTree = "<group>"; };
 		E52290A92270F65100C6158A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E52290AB2270F66500C6158A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		E53AC3AC2288D23700B5D8DC /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				E52290A72270DE9000C6158A /* MemeViewController.swift */,
 				E52290A92270F65100C6158A /* TableViewController.swift */,
 				E52290AB2270F66500C6158A /* CollectionViewController.swift */,
+				E53AC3AC2288D23700B5D8DC /* MemeCollectionViewCell.swift */,
 			);
 			path = Meme2;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53AC3AD2288D23700B5D8DC /* MemeCollectionViewCell.swift in Sources */,
 				E522907C226F1BA500C6158A /* ViewController.swift in Sources */,
 				E52290A82270DE9000C6158A /* MemeViewController.swift in Sources */,
 				E522907A226F1BA500C6158A /* AppDelegate.swift in Sources */,
