@@ -24,11 +24,14 @@ class TableViewController: UIViewController,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
-        let cell = tb.dequeueReusableCell(withIdentifier: "memesRow")
+        let cell = tb.dequeueReusableCell(withIdentifier: "MemeTableViewCell", for: indexPath) as! MemeTableViewCell
+//        let cell = tb.dequeueReusableCell(withIdentifier: "memesRow")!
         let memesRow = appDelegate.memes[(indexPath as NSIndexPath).row]
-        cell!.textLabel?.text = memesRow.topText
+        cell.MemedImageView.image = memesRow.memedImage
+        cell.topLabel.text = memesRow.topText
+        cell.bottomLabel.text = memesRow.bottomText
         
-        return cell!
+        return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
