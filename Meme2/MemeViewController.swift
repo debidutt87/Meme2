@@ -163,6 +163,10 @@ class MemeViewController: UIViewController,UIImagePickerControllerDelegate,UINav
         
         return memedImage;
     }
+    @IBAction func clickedOnCancel(_ sender: Any) {
+        
+        self.dismiss(animated: true, completion: nil)
+    }
     
     func hideToolbars(_ hide: Bool){
         self.navigationController?.setNavigationBarHidden(hide, animated: true)
