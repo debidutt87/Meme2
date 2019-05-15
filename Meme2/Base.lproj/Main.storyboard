@@ -175,7 +175,6 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="cxE-54-7Ae" id="v5C-Vg-1M2"/>
-                                    <outlet property="delegate" destination="cxE-54-7Ae" id="mZS-sD-Krr"/>
                                 </connections>
                             </tableView>
                         </subviews>

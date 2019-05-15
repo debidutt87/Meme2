@@ -20,11 +20,10 @@ class TableViewController: UIViewController,UITableViewDataSource,UITableViewDel
         
         self.tb.delegate = self
         self.tb.dataSource = self
-        
+        self.navigationItem.title = "Sent Memes"
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+        override func viewWillAppear(_ animated: Bool) {
         tb.reloadData()
         self.tabBarController?.tabBar.isHidden = false
     }

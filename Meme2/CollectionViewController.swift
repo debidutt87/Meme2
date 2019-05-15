@@ -15,6 +15,7 @@ class CollectionViewController: UICollectionViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title="Sent Memes"
     }
     
     

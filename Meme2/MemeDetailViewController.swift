@@ -16,6 +16,7 @@ class MemeDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         memedImage.image = meme?.memedImage
+        self.title = "Meme Detail"
     }
     
     override func viewWillAppear(_ animated: Bool) {
